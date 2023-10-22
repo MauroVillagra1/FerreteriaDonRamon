@@ -1,0 +1,64 @@
+.navbar_content {
+  width: 100%;
+  background-color: var(--color-nav);
+  height: 10vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 2.5%;
+  
+}
+
+.content_text{
+  width: 50%;
+}
+
+.content_text h6{
+  padding: 1%;
+  font-size: 20px;
+  left: 0;
+}
+
+.boton_navbar {
+  width: 50%;
+  width: 50vw;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+}
+.boton_navbar Button {
+  min-width: 50px;
+  min-height: 30px;
+  margin: 0 1%;
+  font-size: 1vw;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  width: 10vw;
+  font-weight: 900;
+  background-color: seagreen;
+  border-color: seagreen;
+  justify-content: center;
+}
+
+.boton_navbar Button img {
+  width: 25%;
+  margin-right: 5%;
+}
+
+.boton_navbar Button p {
+  width: 50%;
+  margin: 0;
+}
+
+  .boton_navbar Button:hover {
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+  }
+
+  .boton_navbar Button:active {
+    background-color: yellowgreen !important;
+    border-color: yellowgreen !important;
+  }
+
